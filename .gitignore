@@ -13,8 +13,7 @@ api-docs/
 .idea
 
 # Ignore build folders
-_test/
-_deploy/
+_site/
 
 package-lock.json
 
