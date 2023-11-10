@@ -27,7 +27,7 @@ jobs:
 
       - name: run eleventy
         run: |
-          npm install 
+          npm ci
           npm run build
 
       - name: upload static site content
