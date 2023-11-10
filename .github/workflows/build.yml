@@ -39,7 +39,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: $
+      url: "https://jasmijnb.github.io/"
     runs-on: ubuntu-latest
     needs: build
     steps:
