@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx eleventy",
-    "gbuild": "npx @11ty/eleventy --output=_deploy"
+    "serve": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
