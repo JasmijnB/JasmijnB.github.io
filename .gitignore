@@ -15,7 +15,6 @@ api-docs/
 # Ignore build folders
 _site/
 
-package-lock.json
 
 # Ignore test files
 .cache
