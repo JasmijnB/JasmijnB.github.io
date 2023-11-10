@@ -4,7 +4,11 @@
   "description": "A small personal site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "gbuild": "npx @11ty/eleventy --output=_deploy"
   },
   "keywords": [],
   "author": "",
